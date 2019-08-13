@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+}
+#table{
+    text-align: center;
+    border:3px solid;
+}
+
+#table-body + tr{
+    font-size: 22px;
+}
+
+#create-user, .add-wrapper{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    height: 70vh;
+    width: 70vw;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.add-wrapper {
+    display: flex;
+    font-size: 20px;
+}
+.close{
+    background-image: url(https://st4.depositphotos.com/5847306/20690/v/1600/depositphotos_206909026-stock-illustration-red-tick-red-cross-tick.jpg);
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+}
+
+.add-info > span{
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+.add-info :first-child{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
