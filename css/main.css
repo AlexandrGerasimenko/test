@@ -4,11 +4,12 @@ body{
     align-items: center;
     font-size: 14px;
     min-width: 320px;
+    margin: 0
 }
 #table{
     text-align: center;
     border:3px solid;
-    margin-bottom: 20px;
+    margin: 10px 5px 20px;
 }
 
 #table th{
@@ -35,7 +36,7 @@ body{
     white-space: nowrap;
 }
 #table th div{
-    font-size: 18px;
+    font-size: 16px;
     white-space: nowrap;
     font-weight: bold;
 }
@@ -99,7 +100,9 @@ body{
     border-radius: 2px;
     border: 1px solid #888;
 }
-
+.newUser{
+  margin-bottom: 20px;
+}
 .add-wrapper {
     display: flex;
     font-size: 20px;
