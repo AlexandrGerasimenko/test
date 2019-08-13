@@ -8,45 +8,43 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-
-    <table border="1" id = 'table' style="width: 600px;">
+    <table border="1" id = 'table' style="">
         <thead >
-     
         </thead>
         <tbody id= "table-body" style="background: #ccc">
-        
         </tbody>
-     
-       </table>
-       <form action="" id = "create-user">
-           <div>
-               <span>
-                   Enter the name
-               </span>
-               <input id = "new-name" type="text">
-           </div>
-           <div>
-               <span>
-                   Enter the username
-               </span>
-               <input id = "new-user-name" type="text">
-           </div>
-           <div>
-               <span>
-                   Enter the email
-               </span>
-               <input id = "new-email" type="text">
-           </div>
-           
-           <div>
-               <span>
-                   Enter the web-site
-               </span>
-               <input id = "new-web-site" type="text">
-           </div>
-          
-           <button id="add-new-user">Create user</button>
-       </form>
+    </table>
+    <form action="" id = "create-user">
+        <div class="heading">
+            <span>Create new user</span>
+            <button id="close"></button>
+        </div>
+        <div>
+            <span>
+               Enter the name:
+            </span>
+            <input id = "new-name" type="text">
+        </div>
+        <div>
+            <span>
+                Enter the username:
+            </span>
+            <input id = "new-user-name" type="text">
+        </div>
+        <div>
+            <span>
+               Enter the email:
+            </span>
+            <input id = "new-email" type="text">
+        </div>
+        <div>
+            <span>
+                Enter the web-site:
+            </span>
+            <input id = "new-web-site" type="text">
+        </div>
+        <button id="add-new-user">Create user</button>
+    </form>
 </body>
 <script src="./js/main.js"></script>
 </html>     

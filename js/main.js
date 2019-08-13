@@ -74,6 +74,7 @@ let email = document.getElementById('email');
 let webSite = document.getElementById('web-site');
 
 let but6 = document.body.appendChild(document.createElement('button'))
+but6.className = 'newUser'
 but6.innerText = 'Add new user'
 
 name.onclick = () => {
@@ -134,7 +135,15 @@ document.getElementById('add-new-user').onclick = () => {
     clearData('new-email');
     clearData('new-web-site');
 }
+document.getElementById('close').onclick = () => {
+    event.preventDefault()
+    document.getElementById('create-user').style.display = 'none';
 
+    clearData('new-name');
+    clearData('new-user-name');
+    clearData('new-email');
+    clearData('new-web-site');
+}
 
 
 
